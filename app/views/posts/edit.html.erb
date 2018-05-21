@@ -1,0 +1,5 @@
+<%= form_tag post_path(@post), method: "patch" do %>
+	<p><%=text_field_tag :title %></p>
+	<p><%=text_area_tag :description %></p>
+	<p><%=submit_tag "Submit Post" %></p>
+<% end %>
